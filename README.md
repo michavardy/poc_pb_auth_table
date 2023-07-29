@@ -1,4 +1,23 @@
+# Proof of Concept
+## Pocket Base / Oath2 / React Table / React Forms
+![](./workflow.gif)
+
+## Technical Details
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+
+## Goal
+The Goals of this project:
+- learn Pocketbase OAuth2
+- learn next js providers 
+    - Authentication
+    - react-query
+    - react-context
+- learn react hook form
+- learn Pocketbase read - write 
+- learn shadcn/ui table or react-table
+    - https://ui.shadcn.com/docs/components/table
+    - https://www.youtube.com/watch?v=j6-ImdZW7aM
+    - https://www.youtube.com/watch?v=AuLg79Th3xE
 
 ## Getting Started
 
@@ -17,6 +36,9 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
 This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+
+## accessing pocketbase development server
+./pb/pocketbase.exe serve
 
 ## Learn More
 
